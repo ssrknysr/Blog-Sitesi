@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: blueviolet;
+}
+
+header {
+  background-color: brown;
+  color: aqua;
+  padding: 25px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+}
+
+header h1 {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -25px;
+  text-align: left;
+}
+
+nav ul li {
+  text-align: center;
+  margin-right: 50px;
+  list-style: none;
+  display: inline;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul li a {
+  color: aqua;
+  text-decoration: none;
+  transition: 500ms all;
+  -webkit-transition: 500ms all;
+  -moz-transition: 500ms all;
+  -ms-transition: 500ms all;
+  -o-transition: 500ms all;
+}
+
+nav ul li a:hover {
+  background-color: aqua;
+  color: brown;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 20px, auto;
+  padding: auto, 20px;
+}
+
+.blogs h2 {
+  color: brown;
+  font-size: xx-large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.blog {
+  color: brown;
+  padding: 30px;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 300ms all;
+  -webkit-transition: 300ms all;
+  -moz-transition: 300ms all;
+  -ms-transition: 300ms all;
+  -o-transition: 300ms all;
+}
+
+.blog:hover {
+  text-decoration: none;
+  list-style: none;
+  background-color: brown;
+  color: aqua;
+  border-style: dotted;
+}
+
+.blog h3,
+a {
+  color: aqua;
+  margin-bottom: 30px;
+  text-decoration: none;
+  font-size: x-large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.blog p {
+  color: aqua;
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+}
+footer {
+  padding: 30px;
+  background-color: brown;
+  color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+}
+footer a {
+  padding: 20px;
+  font-size: 15px;
+  color: aqua;
+  text-decoration: none;
+  list-style: none;
+  font-style: italic;
+}
